@@ -26,6 +26,10 @@ function myFunction() {
 		});
 	}
 
+	// COUNTER NUMBERS
+    jQuery('.count-now').appear(function() {
+      jQuery('.count-now').countTo();
+    });
 
 // Sticky with jQuery
 
