@@ -453,3 +453,49 @@ a.menu-trigger.active span:before {
 .menu-trigger.active span:after {
     background-color: red;
   } */
+
+
+  /* Heart section style */
+
+.heart-charity {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.section-title {
+    padding-bottom: 70px;
+}
+
+.section-title h1 {
+    font-weight: 700;
+    color: #5A6F80;
+}
+
+.single-charity p {
+    color: #5BC1AC;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.single-charity {
+    padding: 28px 23px;
+    align-items: center;
+}
+.single-charity img{
+   transition: 0.5s;
+    width: 120px;
+}
+
+.single-charity:hover {
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+    cursor: pointer;
+    min-height: 256px;
+    padding-top: 50px;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+.single-charity:hover img{
+    width: 80px;
+}
+
+
