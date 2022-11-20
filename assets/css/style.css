@@ -593,3 +593,142 @@ a.menu-trigger.active span:before {
     padding-left: 0px !important;
     font-weight: 700;
 }
+
+
+/* Sandy profile style */
+
+
+.sandy-profile {
+    padding: 100px 0px;
+}
+
+.profile-img img {
+    width: 310px;
+    height: 357px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+}
+
+.profile-img {
+    text-align: right;
+}
+
+.profile-info {
+    padding-left: 33px;
+}
+
+.profile-info h1 {
+    color: #5A6F80;
+    font-weight: 700;
+    margin: 0;
+}
+.profile-info span {
+    color: #666;
+    display: block;
+    padding-bottom: 22px;
+}
+.profile-info em {
+    font-style: normal;
+    color: #666;
+    width: 318px;
+    font-size: 17px;
+    padding-bottom: 20px;
+    display: block;
+}
+.profile-info p {
+    color: #666;
+    width: 371px;
+    font-size: 17px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.sandy-social i {
+    color: white;
+    background: #5A6F80;
+    padding: 12px;
+    border-radius: 30px;
+    margin-right: 8px;
+}
+
+.sandy-social i:hover {
+    background: #5BC1AC;
+    transition: 0.3s;
+}
+
+/* Donation option style */
+
+
+.donation {
+    padding: 80px 0px;
+    background: #F0F8FF;
+    position: relative;
+    overflow: hidden;
+}
+
+.donation-headline {
+    padding-left: 33%;
+}
+
+.donation-headline h1 {
+    font-weight: 500;
+    color: #5A6F80;
+    font-size: 47px;
+}
+
+.donation-button a {
+    color: #666;
+    padding-right: 50px;
+}
+
+.donation-button {
+    padding-top: 36px;
+    padding-left: 16%;
+}
+
+.donation-button a:hover {
+    color: #5BC1AC;
+    transition: 0.3s;
+}
+
+button.Volunteer-button {
+    color: white;
+    border: none;
+    background: #597081;
+    padding: 12px 25px;
+    font-size: 19px;
+    border-radius: 30px;
+}
+
+.donation:after {
+    position: absolute;
+    content: '';
+    background: #5BC1AC;
+    width: 205px;
+    height: 97px;
+    top: 0;
+    overflow: hidden;
+    border-bottom-right-radius: 96px;
+    border-bottom-left-radius: 90px;
+    left: -23px;
+}
+
+.donation:before {
+    position: absolute;
+    content: '';
+    background: #F0F8FF;
+    width: 150px;
+    height: 150px;
+    border: 20px solid #597081;
+    left: 46%;
+    top: 83%;
+    border-radius: 80px;
+}
+
+
+/* our-courses style */
+
+.our-courses{
+    padding: 100px 0px;
+}
